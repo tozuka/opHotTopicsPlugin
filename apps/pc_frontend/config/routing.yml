@@ -1,0 +1,8 @@
+htCommunity_hotTopics:
+  class: sfDoctrineRoute
+  url: /htCommunity/hotTopics/:id
+  options: { model: Community, type: object }
+  param: { module: htCommunity, action: hotTopics }
+  requirements:
+    id: \d+
+

@@ -1,0 +1,24 @@
+hotTopicsInCommunity:
+  caption:
+    ja_JP: "コミュニティの活発なトピック一覧"
+  description:
+    ja_JP: "コミュニティトピック一覧を２ちゃんねる掲示板っぽく表示"
+  component: [htCommunity, hotTopicsInCommunity]
+  config:
+    communityId:
+      Name:      "communityId"
+      Caption:   "コミュニティID"
+      FormType:  "input"
+      ValueType: "integer"
+    title:
+      Name:      "Title"
+      Caption:   "タイトル"
+      FormType:  "input"
+      ValueType: "string"
+    limit:
+      Name:      "Limit"
+      Caption:   "表示件数"
+      FormType:  "input"
+      ValueType: "integer"
+      Default:   20
+
