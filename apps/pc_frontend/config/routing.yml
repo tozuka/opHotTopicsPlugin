@@ -6,3 +6,7 @@ htCommunity_hotTopics:
   requirements:
     id: \d+
 
+htDiary_hotDiaries:
+  url: /htDiary/hotDiaries
+  param: { module: htDiary, action: hotDiaries }
+

@@ -22,3 +22,23 @@ hotTopicsInCommunity:
       ValueType: "integer"
       Default:   20
 
+hotDiaries:
+  caption:
+    ja_JP: "人気の日記エントリ"
+  description:
+    ja_JP: "人気の日記エントリ一覧を２ちゃんねる掲示板っぽく表示"
+  component: [htDiary, hotDiaries]
+  config:
+    title:
+      Name:      "Title"
+      Caption:   "タイトル"
+      FormType:  "input"
+      ValueType: "string"
+    limit:
+      Name:      "Limit"
+      Caption:   "表示件数"
+      FormType:  "input"
+      ValueType: "integer"
+      Default:   20
+
+
