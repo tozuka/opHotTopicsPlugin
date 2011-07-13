@@ -61,8 +61,6 @@ EOS;
     return $topics;
   }
 
-<<<<<<< HEAD
-
   public static function getHotDiaries($limit, $expirationSec)
   {
     $memcache = null;
