@@ -49,7 +49,6 @@ EOS;
     $topics = array();
     while ($r = $stmt->fetch(Doctrine::FETCH_ASSOC))
     {
-      //$ad = Doctrine::getTable('ActivityData')->find($r['id']);
       $topics[] = array($r['id'], $r['name'], $r['cnt']);
     }
 
@@ -62,6 +61,7 @@ EOS;
     return $topics;
   }
 
+<<<<<<< HEAD
 
   public static function getHotDiaries($limit, $expirationSec)
   {
